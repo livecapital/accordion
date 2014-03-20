@@ -1,0 +1,102 @@
+body {
+	background: #FFFFFF;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.accordion {
+	background: #FFFFFF;
+}
+
+.ui-accordion .ui-accordion-content { padding: 0; }
+
+.titleAno {
+	background: #E5E5E5;
+	color: #6b6b6b;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 0 6px 21px;
+	text-shadow: none;
+    border-top: 1px solid #CCCCCC;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.contentMes {
+	background: #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.titleMes {
+	background: #ECEFF1;
+	color: #44729D;
+	font-size: 12px;
+	margin: 0;
+	padding: 8px 0 8px 35px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.contentDia {
+	background: #FFFFFF;
+	color: #333333;
+	font-size: 12px;
+	padding: 8px 0 8px 40px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.contentDia:hover { background: #dfe8f0; }
+
+/* Ícones em Operações */
+
+.iconoperacoes {
+    margin-left: 10px;
+}
+
+.iconoperacoes-vista a {
+    background: #d9eef5;
+    border-radius: 2px 2px 2px 2px;
+    color: #859093;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.iconoperacoes-opcao a {
+    background: #cee4e5;
+    border-radius: 2px 2px 2px 2px;
+    color: #849aa5;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.iconoperacoes-fundos a {
+    background: #daf0de;
+    border-radius: 2px 2px 2px 2px;
+    color: #858f87;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.iconoperacoes-eventos a {
+    background: #efefef;
+    border-radius: 2px 2px 2px 2px;
+    color: #7c7c7c;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.iconoperacoes-fixa a {
+    background: #DFDFDF;
+    border-radius: 2px 2px 2px 2px;
+    color: #7c7c7c;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+}

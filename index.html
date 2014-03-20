@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Accordion</title>
+
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+</head>
+<body>
+
+	<div id="accordion">
+		<h3 class="titleAno">Ano</h3>
+		<div class="contentMes">
+			<h3 class="titleMes">Mês</h3>
+			<div class="contentDia">
+				Dia
+				<span class="iconoperacoes">
+					<span class="iconoperacoes-vista">
+						<a class="_button">V</a>
+					</span>
+					<span class="iconoperacoes-opcao">
+						<a class="_button">O</a>
+					</span>
+					<span class="iconoperacoes-fundos">
+						<a class="_button">F</a>
+					</span>
+					<span class="iconoperacoes-eventos">
+						<a class="_button">2</a>
+					</span>
+					<span class="iconoperacoes-fixa">
+						<a class="_button">RF</a>
+					</span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+<!-- 	<div id="accordion">
+		<h3>Section 1</h3>
+		<div>
+			<p>
+			Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+			ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+			amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+			odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+			</p>
+		</div>
+	<h3>Section 2</h3>
+		<div>
+			<p>
+			Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+			velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+			suscipit faucibus urna.
+			</p>
+		</div>
+	</div> -->
+
+	<script>
+		$(function() {
+			$( "#accordion" ).accordion();
+		});
+	</script>
+</body>
+</html>
