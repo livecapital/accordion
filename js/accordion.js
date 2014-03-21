@@ -1,4 +1,4 @@
-$.fn.accordion = function(opts){
+$.fn.simpleAccordion = function(opts){
     var options = {}
     var acc = $(this);
 }
